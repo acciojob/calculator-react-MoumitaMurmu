@@ -1,7 +1,7 @@
 // <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
 import React, { useState } from 'react';
 
-function Calculator() {
+function App() {
   const [input, setInput] = useState('');
   const [result, setResult] = useState('');
 
@@ -47,5 +47,5 @@ function Calculator() {
   );
 }
 
-export default Calculator;
+export default App;
 
